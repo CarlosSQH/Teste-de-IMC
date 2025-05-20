@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de IMC</title>
+    <link rel="stylesheet" href="/At 11 imc/css/estilo.css" />
+  </head>
+  <body>
+    <div id="divisoria">
+      <h1>Calcular IMC</h1>
+      <label>Nome</label> <br />
+      <input type="text" id="nome" required /> <br /><br />
+
+      <label>Sexo:</label> <br />
+      <select id="sexo">
+        <option value="Homem">Homem</option>
+        <option value="Mulher">Mulher</option>
+      </select>
+      <br /><br />
+
+      <label>Peso:</label> <br />
+      <input type="text" id="peso" /> <br /><br />
+
+      <label for="">Altura:</label> <br />
+      <input type="text" name="" id="altura"/> <br />
+
+      <input type="submit" id="botao" onclick="calcular()" />
+
+      <p id="resultado"></p>
+      
+    </div>
+    <script src="js/imc.js"></script>
+  </body>
+</html>
